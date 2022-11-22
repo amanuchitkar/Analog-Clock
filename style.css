@@ -1,15 +1,9 @@
-* {
-    margin: 1rem;
-    padding: 0;
-
-}
-
 #contener {
+    background: url(clock.png) no-repeat;
+    height: 40vw;
+    width: 40vw;
     position: relative;
     margin: auto;
-    width: 50vw;
-    height: 50vw;
-    background: url(https://www.clipartmax.com/png/middle/12-128302_clock-without-hands-clock-clipart-black-and-white.png) no-repeat;
     background-size: 100%;
 }
 
@@ -18,34 +12,31 @@
 #sec {
     position: absolute;
     background-color: black;
+    opacity: 0.8;
     border-radius: 10px;
     transform-origin: bottom;
 }
 
-
 #hour {
-    height: 12%;
-    top: 16.7%;
-    right: 47%;
-    width: 1%;
-    opacity: 0.8;
-}
 
-#min{
-    height: 16%;
-    top: 12.7%;
-    right: 47%;
+    height: 18%;
     width: 1%;
-    opacity: 0.8;
+    right: 48.5%;
+    top: 31%;
     /* display: none; */
-
 }
-#sec{
-    height: 19%;
-    top: 9.7%;
-    right: 47%;
+
+#min {
+    height: 25%;
     width: 1%;
-    opacity: 0.8;
+    right: 48.5%;
+    top: 24%;
+    /* display: none; */
+}
 
-
+#sec {
+    height: 31%;
+    width: 1%;
+    right: 48.5%;
+    top: 18%;
 }
